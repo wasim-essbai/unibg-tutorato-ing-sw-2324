@@ -12,6 +12,8 @@ Bisognare poi fare "run as -> maven install" nel seguente ordine: db_sqlite, bus
 Se i maven install funzionano, per far girare l'app bisogna fare "run as maven build" sul progetto webapp, e mettere come goals: "jetty:run", poi applica e chiudi.
 Una volta avviato basta aprire il browser e digitare localhost:8080.
 
+Il codice "utile" e da modificare si trova in "src/main/java/contatti/vaadin/", il resto sono principalmente file di configurazione preimpostati.
+
 Per ulteriori informazioni consulatre: https://github.com/garganti/applicazione_contatti/wiki
 
 
