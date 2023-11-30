@@ -66,7 +66,7 @@ public class DataService {
 	public IndirizziRecord getIndirizzoPerNome(String nome) {
 		return create.selectFrom(Indirizzi.INDIRIZZI)
 				.where(Indirizzi.INDIRIZZI.NOME.eq(nome))
-				.fetchSingle();
+				.fetchOne();
 	}
 	
 	/**
