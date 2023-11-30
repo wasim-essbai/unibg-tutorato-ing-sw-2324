@@ -4,8 +4,6 @@
 
 Prova di applicazione per il corso di ing. del software per gestione dei contatti. 
 
-Template Vaading tratto da https://github.com/vaadin/skeleton-starter-flow/tree/v22
-
 Per far girare il codice devi aprire eclipse usando come workspace la cartella che contiene i tre progetti.
 Poi fare "import ->existing maven project" e selezionare i tre progetti.
 Bisognare poi fare "run as -> maven install" nel seguente ordine: db_sqlite, business_logic e poi webapp.
@@ -14,6 +12,7 @@ Una volta avviato basta aprire il browser e digitare localhost:8080.
 
 Il codice "utile" e da modificare si trova in "src/main/java/contatti/vaadin/", il resto sono principalmente file di configurazione preimpostati.
 
+Template Vaading tratto da https://github.com/vaadin/skeleton-starter-flow/tree/v22
 Per ulteriori informazioni consulatre: https://github.com/garganti/applicazione_contatti/wiki
 
 
